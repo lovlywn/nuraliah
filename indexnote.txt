@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home - Nature Inspired</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
+                  url('gre.png') no-repeat center center fixed;
+
+      background-size: cover;
+      color: #4b3b47;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: rgba(255, 240, 245, 0.9);
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #6a4e4e;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Home header only */
+    .home-header {
+      text-align: center;
+      padding: 60px 20px 20px;
+    }
+
+    .home-header h1 {
+      font-size: 3em;
+      color: #6a4e4e;
+      margin-bottom: 0.3em;
+    }
+
+    .home-header p {
+      font-size: 1.2em;
+      color: #856d6d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #aa7e8c;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="interest.html">Interest</a></li>
+    <li><a href="family.html">Family Tree</a></li>
+    <li><a href="goals.html">Goals</a></li>
+  </ul>
+</nav>
+
+  <header class="home-header">
+    <h1>Hello, I'm Alia 🌿</h1>
+    <p>You've just picked the sweetest little corner of the web — welcome!</p>
+
+
+
+  <footer>
+    © 2025 [Your Name] • Bloom with grace 🌸
+  </footer>
+</body>
+</html>
